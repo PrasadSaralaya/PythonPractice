@@ -1,10 +1,8 @@
-
-#int
+# int
 print(2 + 4)
 print(2 - 4)
 print(2 * 4)
 print(2 / 4)
-
 
 print(type(2 + 4))
 print(type(2 - 4))
@@ -23,4 +21,18 @@ print(1 // 2)
 
 # modulo operator to get the remainder of the division operation
 print(5 % 3)
-#float
+
+# MATH functions
+print('round value and absolute value')
+print(round(3.5))
+print(round(3.1))
+print(abs(-3))
+# all the math functions are present in documentation
+
+# Operator Precendence
+# BODMAS rule applicable
+
+# complex and bin()
+# has real and imaginary part
+print(bin(8))
+print(int('0b1000', 2))

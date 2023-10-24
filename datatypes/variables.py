@@ -74,3 +74,17 @@ print(weather)
 # similarly \t \n can be used for tab and newline character
 weather = '\t it\'s \"kind of \" sunny today \n hope you have a good day'
 print(weather)
+
+# Formatted String
+name = 'Prasad'
+age = 10
+
+print('Hi ' + name + '. You are ' + str(age) + ' years old.')
+# the same above code can be done better with formatted strings use curly braces for variable
+print('-----formatted string--------')
+print(f'Hi {name}. You are {age} years old.')
+# Below is an old way of formatting string we can add variables and also individual strings
+print('Hi {}. You are {} years old.'.format('Prasad', '10'))
+print('Hi {}. You are {} years old.'.format(name, age))
+
+# STRING INDEXES

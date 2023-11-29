@@ -88,3 +88,31 @@ print('Hi {}. You are {} years old.'.format('Prasad', '10'))
 print('Hi {}. You are {} years old.'.format(name, age))
 
 # STRING INDEXES
+
+name = 'prasad'
+
+print(name[0])
+print(name)
+
+# we can have a start and stop within the square bracket
+# like name[start:stop]
+# stop is not included
+print(name[0:3])  # pra
+print(name[0:6])  # prasad
+print(name[0:7])  # doesnt error out
+# below one prints from 3rd character till end
+print(name[2:])  # asad
+# below is the example where it prints from start till 2nd character
+print(name[:2])  # pr
+# further if there is a need to skip characters and step over then
+# name[start:stop:stepover]
+# that can be done by using similar thing as shown below
+print(name[0:7:3])
+# step over to 1t character
+print(name[::1])  # default value entire string comes in
+# negative index starts from end
+print(name[-1])
+# we can reverse the string by using -1 in the s
+print(name[::-1])
+# negative is used to have the data of string from last to beginning
+# the above thing done is called string slicing

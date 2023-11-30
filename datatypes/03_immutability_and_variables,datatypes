@@ -1,0 +1,4 @@
+# Immutability
+
+# strings are immutable in python meaning that the index value string cannot be reassigned
+name = 'prasad'

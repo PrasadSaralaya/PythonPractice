@@ -106,7 +106,8 @@ print(alpha_basket.index('d',0,4)) # you can even check it within the subset of 
 print('d' in alpha_basket) # gives true as ch d is present in the list
 print('z' in alpha_basket) # gives false as ch z is not present in the list
 
-print(alpha_basket.count('d')) # gives the number of occurrences of the character
+print(alpha_basket.count('d')) # gives the number of occurrences of the character 2
+print(alpha_basket.count('z')) # gives the number of occurrences of the character 0
 
 # Sort
 new_alpha_basket = alpha_basket[:]

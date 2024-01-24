@@ -97,3 +97,73 @@ print(new_basket)
 new_basket.clear()  # clears the entire list
 print('------clearing new basket---------')
 print(new_basket)
+
+# Index
+alpha_basket = ['a', 'b', 'c', 'd','e','f','d']
+print(alpha_basket.index('d')) # give the value to get its index
+print(alpha_basket.index('d',0,4)) # you can even check it within the subset of list
+
+print('d' in alpha_basket) # gives true as ch d is present in the list
+print('z' in alpha_basket) # gives false as ch z is not present in the list
+
+print(alpha_basket.count('d')) # gives the number of occurrences of the character
+
+# Sort
+new_alpha_basket = alpha_basket[:]
+alpha_basket.sort() # sorts the list in asc order
+print(alpha_basket)
+print('returns unsorted list-----------')
+print(new_alpha_basket)
+print('returns sorted list')
+print(sorted(new_alpha_basket))
+
+# Reverse function
+alpha_basket.reverse()
+print('---sorted reverse of list-----')
+print(alpha_basket)
+print('apply reversal again using slicing------')
+print(alpha_basket[::-1]) # this essentially is not reversing the list via memory but displays reversed list
+# via slicing technique
+print('-------------')
+print(alpha_basket)
+
+# range function
+print(range(0,50)) # creates range of 100 (0-99)
+print(list(range(0,50))) # creates a list with range of 100 (0-99)
+
+# print(range(len('prasad'))) # gives 6
+# name = 'prasad' # below code parses through all the ch of string
+# for i in range(len(name)):
+#     print(name[i])
+
+# join
+#  it joins string with single list of elements
+
+joining_list = '!'.join(['prasad','k','saralaya'])
+print(joining_list) # it adds the ! value before each element of the list
+
+# List unpacking
+print('list unpacking----------')
+a,b,c = [1,2,3]
+
+print(a)
+print(b)
+print(c)
+print('------------------')
+# you can add all the remaining elements using * followed by var name
+a,b,c, *others = [1,2,3,4,5,6,7,8]
+
+print(a)
+print(b)
+print(c)
+print(others)
+
+# say you want to assign last element to a var and rest remains in others then you do following
+a,b,c, *others,d = [1,2,3,4,5,6,7,8]
+
+print(a)
+print(b)
+print(c)
+print(others) # reduces from [4,5,6,7,8] to [4,5,6,7]
+print(d) # d gets 8
+

@@ -17,7 +17,7 @@ print(len('prasad'))
 # methods used specifically for string
 new_name = name.replace('a', 'p')
 print(name.upper())
-print(name.find('a'))  # gets the 1st occurance of the string value
+print(name.find('a'))  # gets the 1st occurrence of the string value
 print(new_name)
 
 # BOOLEAN

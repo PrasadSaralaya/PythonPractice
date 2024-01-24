@@ -22,7 +22,7 @@ print(amazon_cart[0::2])  # step over similar to string
 # element of list can be re-asssigned as lists are mutable
 amazon_cart[0] = 'textbook'
 print(amazon_cart)  # notebook changes to text book
-new_cart = amazon_cart  # if assignment is done this way the old list gets updated
+new_cart = amazon_cart  # if assignment is done this way the old list also gets updated
 # as the assignment is done to memory location of initial list and so its updated
 new_cart[0] = 'gum'
 # now amazon cart gets gum value
@@ -74,7 +74,7 @@ print(new_basket)  # now new basket has all the values of old basked
 print(basket[3])
 basket.insert(0, 30)
 print(basket[3])  # added at a particular index . elements after this will get its index increased by 1
-# earlier the priny value was 4 which has now changed to 3
+# earlier the print value was 4 which has now changed to 3
 print(basket)
 # extend
 basket.extend([40, 50])
@@ -92,6 +92,8 @@ print(basket)  # 1st element is removed here
 basket.remove(2)
 # basket.remove(30) errors out as this element is not in the list
 print(basket)  # here the given element gets removed
+print('---------new basket----------')
 print(new_basket)
 new_basket.clear()  # clears the entire list
+print('------clearing new basket---------')
 print(new_basket)

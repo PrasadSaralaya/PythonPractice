@@ -149,4 +149,4 @@ while True:
 # break can also be used in for loop
 # break breaks the loop be it while or for
 # continue will continue the loop when it reaches a particular line no matter what
-# pass will pass the to the next line
+# pass will pass to the next line

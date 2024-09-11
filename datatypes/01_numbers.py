@@ -22,12 +22,12 @@ print(1 // 2)
 # modulo operator to get the remainder of the division operation
 print(5 % 3)
 
-# MATH functions
+# MATH functions_and_methods
 print('round value and absolute value')
 print(round(3.5))
 print(round(3.1))
 print(abs(-3))
-# all the math functions are present in documentation
+# all the math functions_and_methods are present in documentation
 
 # Operator Precendence
 # BODMAS rule applicable

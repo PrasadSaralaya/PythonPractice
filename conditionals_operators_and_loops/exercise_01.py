@@ -19,3 +19,6 @@ for image in picture:
         else:
             print(' ', end='')
     print('')
+
+# Code must always be clean, predictable and readable
+# DRY - Do not repeat yourself

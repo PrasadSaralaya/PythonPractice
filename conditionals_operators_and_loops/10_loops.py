@@ -37,7 +37,7 @@ user = {
 }
 
 print('Iterables')
-# following print gives only key values of the dictionary
+# following print gives only keys of the dictionary
 for item in user:
     print(item)
 
